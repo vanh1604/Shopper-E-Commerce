@@ -46,13 +46,13 @@ const Navbar = () => {
         </li>
         <li
           onClick={() => {
-            setMenu("kids");
+            setMenu("kid");
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/kid">
             Kids{" "}
           </Link>
-          {menu === "kids" && <div className="active"></div> ? <hr /> : null}
+          {menu === "kid" && <div className="active"></div> ? <hr /> : null}
         </li>
       </ul>
       <div className="nav-login-cart">
