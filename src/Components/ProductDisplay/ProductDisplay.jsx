@@ -1,4 +1,4 @@
-import React, { use, useContext } from "react";
+import React, { useContext } from "react";
 import "./ProductDisplay.css";
 import star_icon from "../Assets/Frontend_Assets/star_icon.png";
 import star_dull_icon from "../Assets/Frontend_Assets/star_dull_icon.png";
